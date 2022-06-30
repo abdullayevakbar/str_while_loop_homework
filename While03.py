@@ -10,7 +10,7 @@ def main(s):
     x = 0
     while i < len(s):
         if(s[i] >= 'a' and s[i] <= 'z') or (s[i] >= 'A' and s[i] <= 'Z'):
-            x += 1
+            x = x + 1
         i += 1
     i = 0
     while i < len(s):
