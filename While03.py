@@ -15,6 +15,6 @@ def main(s):
     i = 0
     while i < len(s):
         if(s[i] >= '0' and s[i] <= '9'):
-            x += 1
+            x = x+1
         i += 1
     return len(s)-x
