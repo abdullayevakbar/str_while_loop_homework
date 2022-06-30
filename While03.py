@@ -6,4 +6,15 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    x = 0
+    while i < len(s):
+        if(s[i] >= 'a' and s[i] <= 'z') or (s[i] >= 'A' and s[i] <= 'Z'):
+            x += 1
+        i += 1
+    i = 0
+    while i < len(s):
+        if(s[i] >= '0' and s[i] <= '9'):
+            x += 1
+        i += 1
+    return len(s)-x
