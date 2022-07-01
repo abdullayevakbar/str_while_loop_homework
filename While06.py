@@ -9,9 +9,15 @@ def main(s):
     """
     i = 0
     x = 0
+    y = 0
     s.lower()
     while i < len(s):
+        if s[i].isalpha():
+            y += 1
         if(s[i] == 'a' or s[i] == 'e' or s[i] == 'i' or s[i] == 'o' or s[i] == 'u'):
             x += 1
         i += 1
-    return len(s)-x
+    return y-x
+
+
+print(main("codeschooluz"))
