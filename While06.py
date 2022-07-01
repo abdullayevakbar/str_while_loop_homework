@@ -9,6 +9,7 @@ def main(s):
     """
     i = 0
     x = 0
+    s.lower()
     while i < len(s):
         if(s[i] == 'a' or s[i] == 'e' or s[i] == 'i' or s[i] == 'o' or s[i] == 'u'):
             x += 1
