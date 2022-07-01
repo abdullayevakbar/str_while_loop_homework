@@ -9,7 +9,10 @@ def main(s):
     i = 0
     x = 0
     while i < len(s):
-        if(s[i] >= '0' and s[i] <= '9'):
+        if (s[i]).isdigit:
             x += 1
         i += 1
     return x
+
+
+print(main("5465789"))
