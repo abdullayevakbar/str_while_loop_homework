@@ -14,4 +14,4 @@ def main(s):
         if(s[i] == 'a' or s[i] == 'e' or s[i] == 'i' or s[i] == 'o' or s[i] == 'u'):
             x += 1
         i += 1
-    return x
+    return len(s)-x
