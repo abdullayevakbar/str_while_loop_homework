@@ -10,6 +10,6 @@ def main(s):
     x = 0
     while i < len(s):
         if s[i] >= 0 and s[i] <= '9' and (s[i]-'0') % 2 == 1:
-            x += (s[i]-'0')
+            x += int(s[i])
         i += 1
     return x
